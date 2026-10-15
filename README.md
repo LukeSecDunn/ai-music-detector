@@ -1,17 +1,17 @@
-AI MUSIC DETECTOR
+## AI MUSIC DETECTOR
 
-AUDIO DSP & MACHINE LEARNING RESEARCH PROJECT
+## AUDIO DSP & MACHINE LEARNING RESEARCH PROJECT
 
 A Python-based audio analysis and machine-learning research project
 exploring whether digital signal processing (DSP) features can help
 distinguish human-produced music from AI-generated music.
 
-PROJECT STATUS
+## PROJECT STATUS
 Active development. The DSP analysis and visualisation pipeline is
 operational; AI classification is awaiting a suitably documented
 training dataset.
 
-PROJECT OVERVIEW
+## PROJECT OVERVIEW
 This project combines my background in Audio Technology and music
 production with Python programming, DSP and machine learning.
 
@@ -20,7 +20,7 @@ AI-generated recordings. The longer-term goal is to investigate
 the detection of AI-generated vocals and instruments within
 otherwise human-produced music.
 
-IMPLEMENTED FUNCTIONALITY
+## IMPLEMENTED FUNCTIONALITY
 - WAV audio loading, PCM normalisation and stereo to mono conversion
 - Frame-based FFT analysis with Hann windowing
 - RMS energy and zero-crossing rate
@@ -29,28 +29,28 @@ IMPLEMENTED FUNCTIONALITY
 - 18-dimensional audio feature vectors
 - Track-level feature aggregation
 - Four-panel visualisation dashboard
-- Comman-line interface for analysing WAV recordings
+- Command-line interface for analysing WAV recordings
 - Automated DSP tests using pytest
 
-AUDIO ANALYSIS DASHBOARD
-The visualiser genrates four plots: waveform, spectrogram, RMS energy,
+## AUDIO ANALYSIS DASHBOARD
+The visualiser generates four plots: waveform, spectrogram, RMS energy,
 and spectral centroid.
 
-TECHNOLOGY
+## TECHNOLOGY
 Python, NumPy, SciPy, Matplotlib, scikit-learn and pytest
 
-INSTALLATION
+## INSTALLATION
 Install the project dependencies:
 - python -m pip install -r requirements.txt
 
-USAGE
+## USAGE
 Run the audio dashboard on a WAV recording:
 - python audio_visualiser.py "your_track.wav"
 
-Run the DSP tests:
+## Run the DSP tests:
 - python -m pytest -v test_audio_analyser.py
 
-RESEARCH METHODOLOGY
+## RESEARCH METHODOLOGY
 The planned initial dataset will use complete recordings, with human-
 produced and AI-generated music matched closely as practical by
 genre and duration.
@@ -58,7 +58,7 @@ genre and duration.
 The first classifier will be treated as an experimental baseline
 rather than a validated commercial AI-detection system.
 
-DATASET LIMITATIONS AND LICENSING
+## DATASET LIMITATIONS AND LICENSING
 Potential confounding factors include genre, mastering, recording
 length, compression, producer identity and AI generator identity.
 
@@ -71,17 +71,17 @@ intended research use. Download or commercial-use rights do not
 automatically grant unrestricted ML-training or redistribution
 rights.
 
-ROADMAP
-[x] DSP feature extraction
-[x] Audio analysis dashboard
-[x] Automated tests
-[x] Command-line interface
-[ ] Curate a documented dataset
-[ ] Train and evaluate a baseline classifier
-[ ] Expand to additional generators and human producers
-[ ] Investigate partially AI-generated music
+## ROADMAP
+- [x] DSP feature extraction
+- [x] Audio analysis dashboard
+- [x] Automated tests
+- [x] Command-line interface
+- [ ] Curate a documented dataset
+- [ ] Train and evaluate a baseline classifier
+- [ ] Expand to additional generators and human producers
+- [ ] Investigate partially AI-generated music
 
-ABOUT
+## ABOUT
 Developed as a personal, non-commercial research portfolio project
 to demonstrate practical audio DSP, Python programming and
 machine-learning skills
