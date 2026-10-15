@@ -1,0 +1,28 @@
+# PYTHON CACHE
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# VIRTUAL ENVIRONMENTS
+.venv/
+venv/
+
+# AUDIO FILES - KEEP TRAINING DATA PRIVATE
+*.wav
+*.mp3
+*.flac
+
+# TRAINED MODELS AND GENERATED FILES
+*.pkl
+*.joblib
+
+# EDITOR SETTINGS
+.vscode/
+
+# OPERATING SYSTEM FILES
+.DS_Store
+Thumbs.db
+
+# LOCAL AND LEARNING PRACTICE FILES
+ml_basics.py
+audio_inspector.py
